@@ -1,0 +1,25 @@
+.title{
+  color: white;
+  font-family: 'inter';
+  font-weight: 300;
+  font-size: 1rem;
+
+  font-weight: 300;
+}
+.bryto{
+  font-weight: 800;
+  font-family: 'inter';
+  background-image: linear-gradient(to bottom, #16B5E8, steelblue, #8F00FF);
+  background-clip: text;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  color: black;
+}
+.day{
+  color: white;
+  font-family: 'inter';
+  font-weight: 300;
+  font-size: 1.2rem;
+
+  font-weight: 300;
+}
