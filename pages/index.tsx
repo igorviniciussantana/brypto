@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Bryto</title>
+        <title>Brypto</title>
       </Head>
       <div className="body">
 
