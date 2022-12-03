@@ -3,6 +3,8 @@
     display: flex;
     align-items: center;
     column-gap: 80%;
+    margin-bottom: 24px;
+    justify-content: space-between;
  
 }
 
@@ -16,7 +18,7 @@
     z-index: 1;
     width: 60%;
     height: 100%;
-    padding: 90px 30px;
+    padding: 32px;
     
     
 
