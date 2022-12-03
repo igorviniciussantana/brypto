@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import styles from './day.module.css'
+import styles from './dailyCoin.module.css'
 
 
-export default function Day() {
+export default function DailyCoin() {
   return (
     <div className={styles.day}>
         <div>BNB</div>

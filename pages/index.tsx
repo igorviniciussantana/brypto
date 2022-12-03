@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Header from "../components/header/header"
-import Day from "../components/day/day"
+import DailyCoin from "../components/dailyCoin/dailyCoin"
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
 
        <div className={styles.day}>Day crypto</div>
 
-       <Day />
+       <DailyCoin />
       </div>
     </>
   );
