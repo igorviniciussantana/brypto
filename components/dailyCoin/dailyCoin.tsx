@@ -6,7 +6,7 @@ export default function DailyCoin({ coin }: DailyProps) {
   return (
     <div className={styles.day}>
       <div>
-        {coin.name}
+        <p className={styles.name}>{coin.name}</p>
         <p>{coin.description}</p>
       </div>
 
