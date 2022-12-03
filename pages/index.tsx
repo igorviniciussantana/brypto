@@ -19,7 +19,6 @@ export default function Home({ products }: HomeProps) {
     setRandomCoin(products[Math.floor(Math.random() * products.length)]);
   }, []);
 
-
   return (
     <>
       <Head>
