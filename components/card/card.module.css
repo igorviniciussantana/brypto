@@ -2,14 +2,21 @@
     border: 1px solid rgba(204, 204, 204, 0.534);
     border-radius: 8px;
     margin-top: 12px;
-    background: rgba(204, 204, 204, 0.144);
+    background: rgba(240, 240, 240, 0.041);
     color: white;
     display: flex;
-    text-align: center;
+    padding: 12px 12px 12px 12px;
+    justify-content: space-between; 
+
+}
+.left{
+    display: flex;
+    column-gap: 10px;
 }
 .img_url{
-    width: 300px;
-    height: 300px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 .name{
     font-size: 1rem;

@@ -1,5 +1,5 @@
 export interface IProducts {
-  id: number;
+  id?: number;
   name: string;
   description?: string;
   img_url: string;
@@ -7,6 +7,9 @@ export interface IProducts {
   createdAt?: string;
   updatedAt?: string;
 }
+export interface DailyProps {
+    coin: IProducts;
+  }
 export interface CardProps {
     items: IProducts[];
   }

@@ -10,7 +10,7 @@ let [isMenuOpen, setIsMenuOpen] = useState(false)
     <div className={styles.header}>
 
       <div className={styles.menu_options} style={{left: isMenuOpen ? 0 : '-100%', transition: '.5s'}}>
-      <img className={styles.menu_img} src="img/menu.png"  onClick={()=> setIsMenuOpen(false)} alt="Menu hamburguer"></img>
+      <img className={styles.menu_img} src="img/closeButton.svg"  onClick={()=> setIsMenuOpen(false)} alt="Menu hamburguer"></img>
             <p>Pagina Inicial</p>
             <p>Minha carteira</p>
             <p>Meu perfil</p>

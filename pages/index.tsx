@@ -5,9 +5,21 @@ import DailyCoin from "../components/dailyCoin/dailyCoin";
 import Card from "../components/card/card";
 import { GetStaticProps } from "next";
 import { api } from "./api/api";
-import {IProducts, HomeProps} from './../src/interfaces/index'
+import { IProducts, HomeProps } from "./../src/interfaces/index";
+import { useState, useEffect } from "react";
 
 export default function Home({ products }: HomeProps) {
+  const [randomCoin, setRandomCoin] = useState({
+    name: "",
+    img_url: "",
+    price: 0,
+  });
+
+  useEffect(() => {
+    setRandomCoin(products[Math.floor(Math.random() * products.length)]);
+  }, []);
+
+
   return (
     <>
       <Head>
@@ -15,24 +27,27 @@ export default function Home({ products }: HomeProps) {
       </Head>
       <div className="body">
         <Header />
-     
-          <h1 className={styles.title}>
-            Olá, seja bem vindo a <span className={styles.bryto}>Brypto!</span>
-          </h1>
-  
+
+        <h1 className={styles.title}>
+          Olá, seja bem vindo a <span className={styles.bryto}>Brypto!</span>
+        </h1>
 
         <div className={styles.day}>Day crypto</div>
 
-        <DailyCoin/>
+        <DailyCoin coin={randomCoin} />
 
         <div className={styles.crypto_market}>Crypto Market</div>
 
-  
-
         {products.map((product) => {
-          return(
-            <Card id={product.id} name={product.name} img_url={product.img_url} price={product.price}/>
-          )
+          return (
+            <Card
+              key={product.id}
+              name={product.name}
+              img_url={product.img_url}
+              description={product.description}
+              price={product.price}
+            />
+          );
         })}
       </div>
     </>
