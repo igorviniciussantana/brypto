@@ -2,8 +2,19 @@
     border: 1px solid rgba(204, 204, 204, 0.534);
     border-radius: 8px;
     margin-top: 12px;
-    background: rgba(204, 204, 204, 0.144);
     color: white;
-    padding: 12px 12px 12px 12px;
+    padding: 18px 18px 18px 18px;
+    background: rgba(251, 251, 251, 0.09);
+    box-shadow: 8px 8px 17px rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+    position: relative;
     
+}
+.img_url{
+    width: 88px;
+    height: 88px;
+    position: absolute;
+    right: 4%;
+    top: -32%;
+    border-radius: 50%;
 }

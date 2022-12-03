@@ -8,6 +8,7 @@
 
 .menu_options {
   background-image: url("../../public/img/background_menu.png");
+  background-size: cover;
   font-family: "inter";
   color: white;
   left: 0;
@@ -17,6 +18,10 @@
   width: 60%;
   height: 100%;
   padding: 32px;
+}
+
+.first {
+  margin-top: 48px;
 }
 .menu_options p {
   border-bottom: white 0.8px solid;
