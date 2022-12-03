@@ -39,7 +39,7 @@ export default function Home({ products }: HomeProps) {
 
         {products.map((product) => {
           return(
-          <h1>{product.name}</h1>
+          <h1 key={product.id}>{product.name}</h1>
           )
         })}
       </div>
