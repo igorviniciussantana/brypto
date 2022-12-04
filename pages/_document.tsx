@@ -4,9 +4,9 @@ export default function Document(){
 return(
 <Html>
 <Head>
-
+<link rel='manifest' href='/manifest.json'/>
 </Head>
-<body className='bg-gray-900 bg-app bg-no-repeat bg-cover'>
+<body>
 <Main />
 <NextScript />
 
