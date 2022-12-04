@@ -1,0 +1,41 @@
+.balance{
+    border: 1px solid rgba(204, 204, 204, 0.534);
+    border-radius: 8px;
+    margin-top: 12px;
+    background: rgba(240, 240, 240, 0.041);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 12px 12px 12px;
+    position: relative;
+ 
+}
+.line{
+    display: flex;
+    column-gap: 16px;
+    font-size: 16px;
+    color: #B2ACB2;
+    margin-top: 10px;
+}
+.coin{
+    margin-top: 16px;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.over{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+ 
+    border: 1px solid rgba(204, 204, 204, 0.534);
+    border-radius: 8px;
+    margin-top: 12px;
+    background: rgba(251, 251, 251, 0.09);
+    color: white;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    flex-direction: row;
+    padding: 14px 14px 14px 14px;
+}

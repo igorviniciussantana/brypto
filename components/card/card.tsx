@@ -19,7 +19,7 @@ export default function Card(props: IProducts) {
 
       <div className={styles.right}>
       <div className={styles.price}>
-        <p>{props.price}</p>
+        <p>R$ {props.price}</p>
       </div>
       </div>
     </div>
