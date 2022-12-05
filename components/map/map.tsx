@@ -6,10 +6,10 @@ export default function Map() {
   const [longitude, setLongitude] = useState(0);
 
   useEffect(() => {
-
-    navigator.geolocation.getCurrentPosition((position) => setPosition(position));
-  }, [])
-  
+    navigator.geolocation.getCurrentPosition((position) =>
+      setPosition(position)
+    );
+  }, []);
 
   const setPosition = (coordinates: GeolocationPosition) => {
     setLatitude(coordinates.coords.latitude);

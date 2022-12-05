@@ -8,7 +8,10 @@ export default function Profile() {
         <div>
             <Head>Meu perfil | Brypto</Head>
             <Header />
-            <div><img src="" alt="Foto de Perfil" /></div>
+            <div>
+                <img src="img/foto.png" alt="Foto de Perfil" />
+                <div  className={styles.login}>Fazer login</div>
+                </div>
         <Map />
         </div>
     )
