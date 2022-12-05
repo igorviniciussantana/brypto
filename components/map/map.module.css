@@ -1,9 +1,14 @@
 .title{
 color: white;
-margin-bottom: 12px;
+margin-bottom: 20px;
+margin-left: 12px;
+font-weight: 500;
+font-size: 20px;
+
 }
 
 .map{
     border-radius: 0.25rem;
     border: none;
+    border: 1px solid rgba(204, 204, 204, 0.534);
 }
