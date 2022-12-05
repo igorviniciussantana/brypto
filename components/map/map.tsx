@@ -21,7 +21,7 @@ export default function Map() {
       <h1 className={styles.title}>Sua localização</h1>
       <iframe
         className={styles.map}
-        src={`http://maps.google.com/maps?q=${latitude},${longitude}&z=16&output=embed`}
+        src={`https://maps.google.com/maps?q=${latitude},${longitude}&z=16&output=embed`}
         width="100%"
         height="50%"
         loading="lazy"
