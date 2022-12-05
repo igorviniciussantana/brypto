@@ -8,7 +8,6 @@ const Fallback = () => (
     <div className="body">
         <h1>Oops...</h1>
         <h1>Parece que você não está conectado à internet</h1>
-        <img src="/img/fallback.png" alt="Robô com erro"/>
     </div>
   </>
 )
