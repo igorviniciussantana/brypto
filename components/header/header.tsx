@@ -13,21 +13,21 @@ export default function Header() {
         style={{ left: isMenuOpen ? 0 : "-100%", transition: ".5s" }}
       >
         <img
-          className={styles.menu_img}
+          className={styles.closeButton}
           src="img/closeButton.svg"
           onClick={() => setIsMenuOpen(false)}
           alt="Menu hamburguer"
         ></img>
          <Link href="/">
-          <p>Pagina Inicial</p>
+          <p>Página Inicial</p>
         </Link>
 
         <Link href="/my_wallet">
-          <p>Minha carteira</p>
+          <p>Minha Carteira</p>
         </Link>
 
         <Link href="/my_profile">
-          <p>Meu perfil</p>
+          <p>Meu Perfil</p>
         </Link>
       </div>
       <div>

@@ -4,10 +4,15 @@
   font-size: 2rem;
   font-weight: 500;
 }
-.bryto{
+
+.banner{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.brypto{
   font-weight: 900;
   font-family: 'inter';
-  background: linear-gradient(252.22deg, #16B5E8 37.86%, #8F00FF 88.92%);
+  background: linear-gradient(252.22deg, #1683E8 , #00FFA3 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
