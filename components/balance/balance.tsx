@@ -10,7 +10,7 @@ export default function Balance() {
       <div className={styles.line}>
         <p>MEU SALDO</p>
         <img
-          src="img/eye.svg"
+          src={coinView ? "img/eye.svg" : "img/eyeClosed.svg"}
           alt="Icone do olho"
           onClick={() => (coinView ? setCoinView(false) : setCoinView(true))}
         />
