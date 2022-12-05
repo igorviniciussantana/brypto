@@ -24,7 +24,9 @@
   border-bottom: white 0.8px solid;
   margin-bottom: 0px;
   margin-top: 0px;
-  padding: 4px 0;
+  padding: 8px 0;
+  margin-top: 8px;
+  padding: 0px 0px 4px 0px;
 }
 .photo {
   background-color: white;

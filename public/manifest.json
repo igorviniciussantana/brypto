@@ -1,0 +1,23 @@
+{
+    "name": "Brypto - CryptoWallet",
+    "short_name": "Brypto",
+    "icons": [
+        {
+            "src": "icons/icon-256.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "lang": "pt-BR",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#1a1535",
+    "theme_color": "#1a1535"
+}

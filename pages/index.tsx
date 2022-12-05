@@ -22,7 +22,7 @@ export default function Home({ products }: HomeProps) {
   return (
     <>
       <Head>
-        <title>Brypto</title>
+        <title>Brypto | CryptoWallet</title>
       </Head>
       <div className="body">
         <Header />

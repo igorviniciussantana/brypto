@@ -5,6 +5,7 @@ return(
 <Html>
 <Head>
 <link rel='manifest' href='/manifest.json'/>
+<link rel="shortcut icon" href="/icons/icon-256.png" type="image/png" />
 </Head>
 <body>
 <Main />
