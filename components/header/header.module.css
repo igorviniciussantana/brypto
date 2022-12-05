@@ -7,7 +7,7 @@
 }
 
 .menu_options {
-  background-image: url("../../public/img/background_menu.png");
+  background-color: rgb(19, 9, 41);
   background-size: cover;
   font-family: "inter";
   color: white;
@@ -29,7 +29,8 @@
   padding: 0px 0px 4px 0px;
 }
 .photo {
-  background-color: white;
+  background-image: url('https://img.freepik.com/free-vector/man-shows-gesture-great-idea_10045-637.jpg?w=740&t=st=1670206305~exp=1670206905~hmac=807c176fc79b6b7d5747e67045259ecd56cf7d51cf8fa6f0b875365232ca2f1e');
+ background-size: cover;
   border-radius: 50%;
   width: 25px;
   height: 25px;

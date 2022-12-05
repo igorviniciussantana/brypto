@@ -1,8 +1,9 @@
 const withPWA = require('next-pwa')({
   dest: 'public',
- fallbacks:{
-  image: '/img/eye.svg'
- }
+  disable: process.env.NODE_ENV === 'development',
+  register: true,
+  scope: '/',
+  sw: 'sw.js',
 })
 
 module.exports = withPWA({

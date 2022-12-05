@@ -18,7 +18,7 @@ export default function Map() {
 
   return (
     <div className={styles.card}>
-      <h1 className={styles.title}>Para você</h1>
+      <h1 className={styles.title}>Sua localização</h1>
       <iframe
         className={styles.map}
         src={`http://maps.google.com/maps?q=${latitude},${longitude}&z=16&output=embed`}
