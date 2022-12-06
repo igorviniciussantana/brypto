@@ -33,7 +33,7 @@ export default function Header() {
       <div>
         <img
           className={styles.menu_img}
-          src="img/menu.png"
+          src="img/menu.svg"
           onClick={() => setIsMenuOpen(true)}
           alt="Menu hamburguer"
         ></img>

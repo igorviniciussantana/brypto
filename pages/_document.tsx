@@ -8,7 +8,6 @@ export default function Document() {
         <link rel="shortcut icon" href="/icons/icon-256.png" type="image/png" />
         <meta charSet="UTF-8" />
         <meta name="theme-color" content="#0E2C58" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
           content="Progressive Web App de um mercado de criptomoedas."
