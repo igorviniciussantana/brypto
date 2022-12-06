@@ -26,7 +26,7 @@ export default function Home({ products }: HomeProps) {
       </Head>
       <div className="body">
         <Header />
-        <img src="/img/banner.png" className={styles.banner}/>
+        <img src="/img/banner.png" className={styles.banner} />
 
         <h1 className={styles.title}>
           Olá, seja bem vindo a <span className={styles.brypto}>Brypto!</span>
