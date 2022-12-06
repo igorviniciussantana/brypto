@@ -7,7 +7,7 @@ export default function Document() {
         <link rel="manifest" href="/manifest.json" />
         <link rel="shortcut icon" href="/icons/icon-256.png" type="image/png" />
         <meta charSet="UTF-8" />
-        <meta name="theme-color" content="rgba(30, 150, 198, 0.36)" />
+        <meta name="theme-color" content="#0E2C58" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
